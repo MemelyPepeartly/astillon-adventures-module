@@ -12,8 +12,7 @@
     },
     "traits": {
       "value": ["hb_kirin"],
-      "rarity": "uncommon",
-      "custom": ""
+      "rarity": "uncommon"
     },
     "rules": [],
     "slug": null,
