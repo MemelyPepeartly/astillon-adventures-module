@@ -5,13 +5,13 @@
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "system": {
     "description": {
-      "value": "<p>Kirin don&rsquo;t appear much like ponies to the discerning viewer, aside from not having a brand of destiny&mdash;their limbs are long and slender, their hooves are cloven, their tails are long with a tuft at the end, they have a horn but they are no unicorn. Some even have two horns instead of one but this has no functional difference.</p>"
+      "value": "<p>Kirin don't appear much like ponies to the discerning viewer, aside from not having a brand of destiny - their limbs are long and slender, their hooves are cloven, their tails are long with a tuft at the end, they have a horn but they are no unicorn. Some even have two horns instead of one but this has no functional difference.</p>"
     },
     "source": {
       "value": "Bannermanes Homebrew"
     },
     "traits": {
-      "value": [],
+      "value": ["hb_kirin"],
       "rarity": "uncommon",
       "custom": ""
     },

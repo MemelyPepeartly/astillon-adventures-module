@@ -11,7 +11,7 @@
       "name": "Triple Sevens"
     }
   ],
-  "version": "0.0.8",
+  "version": "0.0.9",
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "10",
   "manifestPlusVersion": "1.0.0",
@@ -67,7 +67,7 @@
       "name": "astillon-ancestries",
       "label": "Astillon Ancestries",
       "path": "packs/astillon-ancestries.db",
-      "type": "Actor",
+      "type": "Item",
       "system": "pf2e"
     }
   ],
