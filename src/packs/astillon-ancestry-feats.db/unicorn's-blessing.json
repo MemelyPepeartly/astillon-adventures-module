@@ -1,0 +1,60 @@
+{
+  "_id": "qyLhgAHgGSsxSoVI",
+  "name": "Unicorn's Blessing",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Your horn may not appear precisely as that of a unicorn, but it seems to accomplish much of the same magic.</p>\n<p>You may select one feat that requires you to be a unicorn to gain. You must still meet all of the feat&rsquo;s other prerequisites. Additionally, you may cast mage hand and light as arcane innate spells at will. The target of your light spell must be your own horn. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
+    },
+    "source": {
+      "value": "Bannermanes Homebrew"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": "Kirin"
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.804,
+      "lastMigration": {
+        "datetime": "2022-12-16T17:41:38.463-07:00",
+        "version": {
+          "schema": 0.8,
+          "foundry": "10.291",
+          "system": "4.5.0"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": ""
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.5.1",
+    "coreVersion": "10.291",
+    "createdTime": null,
+    "modifiedTime": 1671844769704,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}
