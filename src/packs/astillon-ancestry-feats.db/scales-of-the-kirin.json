@@ -13,9 +13,8 @@
       "value": "Bannermanes Homebrew"
     },
     "traits": {
-      "value": [],
-      "rarity": "common",
-      "custom": "Kirin"
+      "value": ["hb_kirin"],
+      "rarity": "common"
     },
     "rules": [
       {
