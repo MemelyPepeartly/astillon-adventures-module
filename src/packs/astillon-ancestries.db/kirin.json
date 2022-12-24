@@ -2,6 +2,7 @@
   "_id": "GtOZBkAYC3BlIRHL",
   "name": "Kirin",
   "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "system": {
     "description": {
       "value": "<p>Kirin don&rsquo;t appear much like ponies to the discerning viewer, aside from not having a brand of destiny&mdash;their limbs are long and slender, their hooves are cloven, their tails are long with a tuft at the end, they have a horn but they are no unicorn. Some even have two horns instead of one but this has no functional difference.</p>"
@@ -10,13 +11,22 @@
       "value": "Bannermanes Homebrew"
     },
     "traits": {
-      "value": ["hb_kirin"],
-      "rarity": "uncommon"
+      "value": [],
+      "rarity": "uncommon",
+      "custom": ""
     },
     "rules": [],
     "slug": null,
     "schema": {
-      "version": 0.804
+      "version": 0.804,
+      "lastMigration": {
+        "datetime": "2022-12-23T19:04:07.344-07:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.291",
+          "system": "4.5.1"
+        }
+      }
     },
     "hp": 6,
     "size": "med",
@@ -64,7 +74,7 @@
       "custom": ""
     },
     "items": {
-      "RiGup": {
+      "pNsVt": {
         "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-feats.YlXr1YLaVAglDFFq",
         "img": "modules/ponyfinder-foundryvtt-module/assets/feats/hoof.png",
         "name": "Fingerless",
@@ -73,14 +83,14 @@
     },
     "vision": "lowLightVision"
   },
-  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
   "effects": [],
+  "flags": {},
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "4.5.1",
     "coreVersion": "10.291",
-    "createdTime": 1671846754144,
-    "modifiedTime": 1671846754144,
-    "lastModifiedBy": "EWEy9G36cx9svjjn"
+    "createdTime": 1671847447075,
+    "modifiedTime": 1671847524409,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
   }
 }
