@@ -1,5 +1,5 @@
 {
-  "_id": "7ZrKwRnyFcvpPoGy",
+  "_id": "",
   "name": "Good-Fortune's Nuisance",
   "type": "feat",
   "img": "systems/pf2e/icons/features/feats/feats.webp",
@@ -12,10 +12,11 @@
     },
     "traits": {
       "value": [
-        "misfortune",
-        "hb_kirin"
+        "hb_kirin",
+        "misfortune"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "custom": ""
     },
     "rules": [],
     "slug": null,
@@ -54,13 +55,20 @@
     "location": null
   },
   "effects": [],
-  "flags": {},
+  "flags": {
+    "exportSource": {
+      "world": "bannermanes-pf2",
+      "system": "pf2e",
+      "coreVersion": "10.291",
+      "systemVersion": "4.5.1"
+    }
+  },
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "4.5.1",
     "coreVersion": "10.291",
     "createdTime": 1671853747314,
-    "modifiedTime": 1671854271223,
+    "modifiedTime": 1672040354358,
     "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
   }
 }

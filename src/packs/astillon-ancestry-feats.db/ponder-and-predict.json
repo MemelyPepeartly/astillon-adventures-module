@@ -1,0 +1,73 @@
+{
+  "name": "Ponder and Predict",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can more quickly calculate various probabilities with staggering amounts of accuracy. You gain @UUID[Compendium.pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augury} as a focus spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+    },
+    "source": {
+      "value": "Bannermanes Homebrew"
+    },
+    "traits": {
+      "value": [
+        "psychic",
+        "hb_steelheart"
+      ],
+      "rarity": "uncommon",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.resources.focus.max",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.804,
+      "lastMigration": {
+        "datetime": "2022-12-26T00:29:47.074-07:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.291",
+          "system": "4.5.1"
+        }
+      }
+    },
+    "level": {
+      "value": 17
+    },
+    "featType": {
+      "value": "ancestry"
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Precise Discipline"
+        }
+      ]
+    },
+    "location": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.5.1",
+    "coreVersion": "10.291",
+    "createdTime": 1672039786449,
+    "modifiedTime": 1672040288416,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}
