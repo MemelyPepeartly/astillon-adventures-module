@@ -1,0 +1,67 @@
+{
+    "name": "kirin",
+    "type": "ancestry",
+    "effects": [],
+    "system": {
+      "description": {
+        "gm": "",
+        "value": "<p>Description of kirin here.</p>"
+      },
+      "source": {
+        "value": ""
+      },
+      "rules": [],
+      "slug": null,
+      "schema": {
+        "version": null,
+        "lastMigration": null
+      },
+      "traits": {
+        "otherTags": ["drakehoof"],
+        "value": ["kirin", "fey"],
+        "rarity": "common"
+      },
+      "hp": 6,
+      "size": "med",
+      "reach": 5,
+      "speed": 30,
+      "boosts": {
+        "0": {
+          "value": ["cha"]
+        },
+        "1": {
+          "value": ["dex"]
+        },
+        "2": {
+          "value": ["str", "dex", "con", "int", "wis", "cha"]
+        }
+      },
+      "flaws": {
+        "0": {
+          "value": ["str"]
+        }
+      },
+      "languages": {
+        "value": ["common", "draconic"],
+        "custom": "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Aquan, Auran, Celestial, Ignan, Sylvan, Terran, and any other languages to which you have access (such as the languages prevalent in your region)."
+      },
+      "additionalLanguages": {
+        "count": null,
+        "value": ["aquan", "auran", "celestial", "ignan", "sylvan", "terran"],
+        "custom": ""
+      },
+      "items": {},
+      "vision": "low-light"
+    },
+    "img": "",
+    "folder": null,
+    "flags": {
+      "exportSource": {
+        "world": "",
+        "system": "pf2e",
+        "coreVersion": "",
+        "systemVersion": ""
+      }
+    }
+  }
+  

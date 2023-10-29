@@ -11,7 +11,7 @@
       "name": "Triple Sevens"
     }
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "10",
   "manifestPlusVersion": "1.0.0",
@@ -55,6 +55,45 @@
       "path": "lang/en.json"
     }
   ],
+  "packFolders": [
+    {
+      "name": "Astillon and Hanaq Adventures",
+      "sorting": "m",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "folders": [
+        {
+          "name": "Astillon",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "folders": [
+            {
+              "name": "Kirin",
+              "sorting": "m",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "packs": [
+                "ponyfinder-kirin-ancestries-and-heritages",
+                "ponyfinder-kirin-feats"
+              ]
+            }
+          ],
+          "packs": [
+            "astillon-ancestry-feats",
+            "astillon-ancestries"
+          ]
+        }
+      ],
+      "packs": []
+    }
+  ],
   "packs": [
     {
       "name": "astillon-ancestry-feats",
@@ -67,6 +106,20 @@
       "name": "astillon-ancestries",
       "label": "Astillon Ancestries",
       "path": "packs/astillon-ancestries.db",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "ponyfinder-kirin-ancestries-and-heritages",
+      "label": "Ponyfinder Kirin Ancestries and Heritages",
+      "path": "packs/ponyfinder-kirin-ancestries-and-heritages.db",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "ponyfinder-kirin-feats",
+      "label": "Ponyfinder Kirin Feats",
+      "path": "packs/ponyfinder-kirin-feats.db",
       "type": "Item",
       "system": "pf2e"
     }

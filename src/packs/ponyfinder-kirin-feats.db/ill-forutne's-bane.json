@@ -1,0 +1,52 @@
+{
+    "name": "Ill Fortune's Bane",
+    "type": "feat",
+    "effects": [],
+    "system": {
+      "description": {
+        "gm": "",
+        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+      },
+      "source": {
+        "value": ""
+      },
+      "rules": [],
+      "slug": null,
+      "schema": {
+        "version": null,
+        "lastMigration": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": ["Kirin", "Fortune"],
+        "rarity": "Common"
+      },
+      "level": {
+        "value": 1
+      },
+      "category": "",
+      "onlyLevel1": false,
+      "maxTakable": null,
+      "actionType": {
+        "value": "reaction"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "img": "",
+    "folder": null,
+    "flags": {
+      "exportSource": {
+        "world": "",
+        "system": "pf2e",
+        "coreVersion": "",
+        "systemVersion": ""
+      }
+    }
+  }
+  
