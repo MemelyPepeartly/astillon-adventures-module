@@ -1,13 +1,12 @@
 {
-    "_id": "JvPu3R30X9bzri0Z",
-    "name": "Ill Fortune's Bane",
-    "img": "",
+    "_id": "U1Wc4MCh0SKxVvNl",
+    "name": "Angel Scales",
     "type": "feat",
     "effects": [],
     "system": {
       "description": {
         "gm": "",
-        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+        "value": "Your very being channels positive energy exceptionally well. When you cast Heal, increase the die size from d8's to d10's. If you have Healing Hands, increase this to d12's."
       },
       "source": {
         "value": ""
@@ -20,17 +19,17 @@
       },
       "traits": {
         "otherTags": [],
-        "value": ["Kirin", "Fortune"],
+        "value": ["Kirin", "Healing"],
         "rarity": "Common"
       },
       "level": {
-        "value": 1
+        "value": 9
       },
       "category": "ancestry",
       "onlyLevel1": false,
       "maxTakable": null,
       "actionType": {
-        "value": "reaction"
+        "value": ""
       },
       "actions": {
         "value": null
@@ -40,6 +39,7 @@
       },
       "location": null
     },
+    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {

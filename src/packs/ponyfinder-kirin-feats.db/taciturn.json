@@ -1,13 +1,12 @@
 {
-    "_id": "JvPu3R30X9bzri0Z",
-    "name": "Ill Fortune's Bane",
-    "img": "",
+    "_id": "R8Tz1JCh7PIsSvKi",
+    "name": "Taciturn",
     "type": "feat",
     "effects": [],
     "system": {
       "description": {
         "gm": "",
-        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+        "value": "You find yourself much more easily able to control your emotional state than others. As a result, you gain a +2 circumstance bonus to saves against emotion effects."
       },
       "source": {
         "value": ""
@@ -20,26 +19,27 @@
       },
       "traits": {
         "otherTags": [],
-        "value": ["Kirin", "Fortune"],
+        "value": ["Kirin", "Emotion"],
         "rarity": "Common"
       },
       "level": {
-        "value": 1
+        "value": 5
       },
       "category": "ancestry",
       "onlyLevel1": false,
       "maxTakable": null,
       "actionType": {
-        "value": "reaction"
+        "value": ""
       },
       "actions": {
         "value": null
       },
       "prerequisites": {
-        "value": []
+        "value": ["Highlander"]
       },
       "location": null
     },
+    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {

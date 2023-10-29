@@ -1,13 +1,12 @@
 {
-    "_id": "JvPu3R30X9bzri0Z",
-    "name": "Ill Fortune's Bane",
-    "img": "",
+    "_id": "f2Hn5WCh1dUgGvAa",
+    "name": "Sear",
     "type": "feat",
     "effects": [],
     "system": {
       "description": {
         "gm": "",
-        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+        "value": "Anger in your veins boils even the blood of your enemies. You gain Boil Blood as an Arcane Innate spell which you can use while using Nirik Form."
       },
       "source": {
         "value": ""
@@ -20,26 +19,27 @@
       },
       "traits": {
         "otherTags": [],
-        "value": ["Kirin", "Fortune"],
+        "value": ["Kirin", "Emotion", "Fire"],
         "rarity": "Common"
       },
       "level": {
-        "value": 1
+        "value": 17
       },
       "category": "ancestry",
       "onlyLevel1": false,
       "maxTakable": null,
       "actionType": {
-        "value": "reaction"
+        "value": ""
       },
       "actions": {
         "value": null
       },
       "prerequisites": {
-        "value": []
+        "value": ["Scorch"]
       },
       "location": null
     },
+    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {

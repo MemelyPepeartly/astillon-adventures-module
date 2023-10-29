@@ -1,13 +1,12 @@
 {
-    "_id": "JvPu3R30X9bzri0Z",
-    "name": "Ill Fortune's Bane",
-    "img": "",
+    "_id": "d0Fl3UCh9bSeEvYy",
+    "name": "Kismet Kirin",
     "type": "feat",
     "effects": [],
     "system": {
       "description": {
         "gm": "",
-        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+        "value": "The veil between serendipity and calamity has thinned, enabling you to manipulate the odds with a near uncanny frequency. You are able to use Ill Fortune's Bane once per hour rather than twice per day."
       },
       "source": {
         "value": ""
@@ -24,22 +23,23 @@
         "rarity": "Common"
       },
       "level": {
-        "value": 1
+        "value": 17
       },
       "category": "ancestry",
       "onlyLevel1": false,
       "maxTakable": null,
       "actionType": {
-        "value": "reaction"
+        "value": ""
       },
       "actions": {
         "value": null
       },
       "prerequisites": {
-        "value": []
+        "value": ["Twice as Lucky"]
       },
       "location": null
     },
+    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {

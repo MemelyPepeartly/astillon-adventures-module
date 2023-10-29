@@ -1,13 +1,12 @@
 {
-    "_id": "JvPu3R30X9bzri0Z",
-    "name": "Ill Fortune's Bane",
-    "img": "",
+    "_id": "S9Ua2KCh8QJtTvLj",
+    "name": "Auspicious Scales",
     "type": "feat",
     "effects": [],
     "system": {
       "description": {
         "gm": "",
-        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+        "value": "You are one lucky kirin to be around. As a reaction, you may allow the target to re-roll any 1's that occur on damage dice for a single strike or spell attack roll. Once you have used this on a creature, that creature cannot be targeted again with Auspicious Scales for 10 minutes. This ability has the Fortune trait."
       },
       "source": {
         "value": ""
@@ -24,7 +23,7 @@
         "rarity": "Common"
       },
       "level": {
-        "value": 1
+        "value": 5
       },
       "category": "ancestry",
       "onlyLevel1": false,
@@ -36,10 +35,11 @@
         "value": null
       },
       "prerequisites": {
-        "value": []
+        "value": ["Ill-Fortune's Bane"]
       },
       "location": null
     },
+    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {

@@ -1,5 +1,7 @@
 {
+    "_id": "JvOz3R40X9bzjo8Y",
     "name": "Purity",
+    "img": "",
     "type": "feat",
     "effects": [],
     "system": {
@@ -24,7 +26,7 @@
       "level": {
         "value": 1
       },
-      "category": "",
+      "category": "ancestry",
       "onlyLevel1": false,
       "maxTakable": null,
       "actionType": {
@@ -38,7 +40,6 @@
       },
       "location": null
     },
-    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {

@@ -1,16 +1,15 @@
 {
-    "_id": "JvPu3R30X9bzri0Z",
-    "name": "Ill Fortune's Bane",
-    "img": "",
+    "_id": "M3Ot6ECh2KDnNvId",
+    "name": "Hoarding Instinct",
     "type": "feat",
     "effects": [],
     "system": {
       "description": {
         "gm": "",
-        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+        "value": "Whether secrets, gold, or another specific type of items, you take pleasure in building your collections. Having developed a keen sense for these particular types of items, you gain a +2 circumstance bonus on Perception checks to locate treasure, hidden objects, or secret doors."
       },
       "source": {
-        "value": ""
+        "value": "If you are an investigator, this ability allows 'That's Odd' to activate one additional time within a room to discover a potential object for your given collection of items."
       },
       "rules": [],
       "slug": null,
@@ -20,7 +19,7 @@
       },
       "traits": {
         "otherTags": [],
-        "value": ["Kirin", "Fortune"],
+        "value": ["Kirin"],
         "rarity": "Common"
       },
       "level": {
@@ -30,7 +29,7 @@
       "onlyLevel1": false,
       "maxTakable": null,
       "actionType": {
-        "value": "reaction"
+        "value": ""
       },
       "actions": {
         "value": null
@@ -40,6 +39,7 @@
       },
       "location": null
     },
+    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {

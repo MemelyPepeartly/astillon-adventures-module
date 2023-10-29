@@ -1,13 +1,12 @@
 {
-    "_id": "JvPu3R30X9bzri0Z",
-    "name": "Ill Fortune's Bane",
-    "img": "",
+    "_id": "a7Ci0RCh6YPbBvUv",
+    "name": "Twice as Lucky",
     "type": "feat",
     "effects": [],
     "system": {
       "description": {
         "gm": "",
-        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+        "value": "You are quite the good luck charm to have around. Some might even say you're twice as lucky as most! You gain a second use per day of Ill Fortune's Bane."
       },
       "source": {
         "value": ""
@@ -24,22 +23,23 @@
         "rarity": "Common"
       },
       "level": {
-        "value": 1
+        "value": 13
       },
       "category": "ancestry",
       "onlyLevel1": false,
       "maxTakable": null,
       "actionType": {
-        "value": "reaction"
+        "value": ""
       },
       "actions": {
         "value": null
       },
       "prerequisites": {
-        "value": []
+        "value": ["Ill Fortune's Bane"]
       },
       "location": null
     },
+    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {

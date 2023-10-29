@@ -1,13 +1,12 @@
 {
-    "_id": "JvPu3R30X9bzri0Z",
-    "name": "Ill Fortune's Bane",
-    "img": "",
+    "_id": "W3Ye6OCh2UMzXvPq",
+    "name": "Dream Guardian",
     "type": "feat",
     "effects": [],
     "system": {
       "description": {
         "gm": "",
-        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+        "value": "Your spiritual connection enables you to safeguard the minds of yourself and your allies during rest. When you take a long rest, you and any allies within 30 feet of you gain a +2 circumstance bonus to saving throws against mental effects and against spells or abilities that would disturb sleep or induce nightmares."
       },
       "source": {
         "value": ""
@@ -20,17 +19,17 @@
       },
       "traits": {
         "otherTags": [],
-        "value": ["Kirin", "Fortune"],
+        "value": ["Kirin"],
         "rarity": "Common"
       },
       "level": {
-        "value": 1
+        "value": 9
       },
       "category": "ancestry",
       "onlyLevel1": false,
       "maxTakable": null,
       "actionType": {
-        "value": "reaction"
+        "value": ""
       },
       "actions": {
         "value": null
@@ -40,6 +39,7 @@
       },
       "location": null
     },
+    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {

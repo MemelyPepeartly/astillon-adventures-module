@@ -1,13 +1,12 @@
 {
-    "_id": "JvPu3R30X9bzri0Z",
-    "name": "Ill Fortune's Bane",
-    "img": "",
+    "_id": "P6Rx9HCh5NGqQvIg",
+    "name": "Rooftop Kirin",
     "type": "feat",
     "effects": [],
     "system": {
       "description": {
         "gm": "",
-        "value": "Using a reaction, you may banish unluckiness, causing a creature within 30 feet to reroll a natural 1 on a d20 roll. Once you have used this feature, you cannot do so again until you have taken a long rest."
+        "value": "You have an eye for ambushing those down below, likely from years of bounding around in the treetops. You gain a +2 circumstance bonus to ranged attack rolls when you are at a higher elevation than your target."
       },
       "source": {
         "value": ""
@@ -20,26 +19,27 @@
       },
       "traits": {
         "otherTags": [],
-        "value": ["Kirin", "Fortune"],
+        "value": ["Kirin"],
         "rarity": "Common"
       },
       "level": {
-        "value": 1
+        "value": 5
       },
       "category": "ancestry",
       "onlyLevel1": false,
       "maxTakable": null,
       "actionType": {
-        "value": "reaction"
+        "value": ""
       },
       "actions": {
         "value": null
       },
       "prerequisites": {
-        "value": []
+        "value": ["Treetop Kirin"]
       },
       "location": null
     },
+    "img": "",
     "folder": null,
     "flags": {
       "exportSource": {
