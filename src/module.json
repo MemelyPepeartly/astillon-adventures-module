@@ -1,6 +1,7 @@
 {
   "name": "astillon-hanaq-adventures-module",
   "title": "Astillon Hanaq Adventures Module",
+  "version": "0.2.0",
   "description": "", 
   "authors": [
     {
@@ -11,7 +12,6 @@
       "name": "Triple Sevens"
     }
   ],
-  "version": "0.1.2",
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "10",
   "manifestPlusVersion": "1.0.0",
