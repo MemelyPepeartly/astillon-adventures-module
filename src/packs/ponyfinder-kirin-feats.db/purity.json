@@ -20,7 +20,7 @@
       },
       "traits": {
         "otherTags": [],
-        "value": ["Kirin", "Healing"],
+        "value": ["hb_kirin", "Healing"],
         "rarity": "Common"
       },
       "level": {

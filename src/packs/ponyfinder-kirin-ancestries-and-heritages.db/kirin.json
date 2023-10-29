@@ -18,7 +18,7 @@
       },
       "traits": {
         "otherTags": ["drakehoof"],
-        "value": ["kirin", "fey"],
+        "value": ["hb_kirin", "fey"],
         "rarity": "common"
       },
       "hp": 6,
