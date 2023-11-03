@@ -28,7 +28,7 @@
       },
       "category": "ancestry",
       "onlyLevel1": false,
-      "maxTakable": null,
+      "maxTakable": 1,
       "actionType": {
         "value": ""
       },

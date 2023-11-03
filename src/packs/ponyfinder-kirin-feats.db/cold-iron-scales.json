@@ -7,7 +7,7 @@
     "system": {
       "description": {
         "gm": "",
-        "value": "Those scales are not just for show, as lovely as they are. Your natural armor increases by +1."
+        "value": "Those scales are not just for show, as lovely as they are. You gain an +1 untyped armor bonus."
       },
       "source": {
         "value": ""
@@ -28,7 +28,7 @@
       },
       "category": "ancestry",
       "onlyLevel1": false,
-      "maxTakable": null,
+      "maxTakable": 1,
       "actionType": {
         "value": ""
       },
