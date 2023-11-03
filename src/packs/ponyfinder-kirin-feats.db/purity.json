@@ -23,6 +23,12 @@
         "value": ["hb_kirin", "healing"],
         "rarity": "common"
       },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
       "level": {
         "value": 1
       },

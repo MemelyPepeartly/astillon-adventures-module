@@ -22,6 +22,12 @@
         "value": ["hb_kirin", "fortune"],
         "rarity": "common"
       },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
       "level": {
         "value": 17
       },

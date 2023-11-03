@@ -25,6 +25,12 @@
       "level": {
         "value": 13
       },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
       "category": "ancestry",
       "onlyLevel1": false,
       "maxTakable": 1,

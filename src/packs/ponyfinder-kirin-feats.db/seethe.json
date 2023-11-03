@@ -17,6 +17,12 @@
         "version": null,
         "lastMigration": null
       },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
       "traits": {
         "otherTags": [],
         "value": ["hb_kirin", "emotion", "visual"],
