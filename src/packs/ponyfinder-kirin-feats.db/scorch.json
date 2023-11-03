@@ -19,8 +19,8 @@
       },
       "traits": {
         "otherTags": [],
-        "value": ["hb_kirin", "Emotion", "Fire"],
-        "rarity": "Common"
+        "value": ["hb_kirin", "emotion", "fire"],
+        "rarity": "common"
       },
       "level": {
         "value": 13

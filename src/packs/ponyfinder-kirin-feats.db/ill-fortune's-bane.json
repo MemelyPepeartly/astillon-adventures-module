@@ -1,7 +1,7 @@
 {
     "_id": "JvPu3R30X9bzri0Z",
     "name": "Ill Fortune's Bane",
-    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "img": "systems/pf2e/icons/actions/Reaction.webp",
     "type": "feat",
     "effects": [],
     "system": {
@@ -26,7 +26,7 @@
           "hb_kirin",
           "fortune"
         ],
-        "rarity": "Common"
+        "rarity": "common"
       },
       "publication": {
         "title": "",

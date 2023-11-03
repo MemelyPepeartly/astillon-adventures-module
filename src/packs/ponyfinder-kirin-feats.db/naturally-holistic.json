@@ -19,8 +19,8 @@
       },
       "traits": {
         "otherTags": [],
-        "value": ["hb_kirin", "Downtime"],
-        "rarity": "Common"
+        "value": ["hb_kirin", "downtime"],
+        "rarity": "common"
       },
       "level": {
         "value": 13
