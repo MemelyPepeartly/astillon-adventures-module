@@ -1,7 +1,7 @@
 {
   "name": "astillon-hanaq-adventures-module",
   "title": "Astillon Hanaq Adventures Module",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "", 
   "authors": [
     {
@@ -12,8 +12,8 @@
       "name": "Triple Sevens"
     }
   ],
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
   "manifestPlusVersion": "1.0.0",
   "url": "https://github.com/MemelyPepeartly/astillon-hanaq-adventures-module",
   "manifest": "https://github.com/MemelyPepeartly/astillon-hanaq-adventures-module/releases/latest/download/module.json",
