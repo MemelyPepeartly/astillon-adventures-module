@@ -1,7 +1,6 @@
 import gulp from 'gulp';
 import fs from 'fs';
 import path from 'path';
-import through2 from 'through2';
 
 const PACK_SRC = 'src/packs';
 const DIST_DIR = 'dist';
@@ -17,16 +16,20 @@ async function compilePacks() {
     const categoryPath = path.join(PACK_SRC, category);
     const files = fs.readdirSync(categoryPath);
 
+    // Ensure each JSON object is a single line
     const dbContents = files.map(file => {
       const filePath = path.join(categoryPath, file);
-      return fs.readFileSync(filePath, 'utf8');
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      const json = JSON.parse(fileContent);
+      return JSON.stringify(json); // This ensures it's a single line
     }).join('\n');
 
     if (!fs.existsSync(PACKS_DIST)) {
       fs.mkdirSync(PACKS_DIST, { recursive: true });
     }
 
-    const dbPath = path.join(PACKS_DIST, `${category}`);
+    // Ensure the .db extension is added to the filename
+    const dbPath = path.join(PACKS_DIST, `${category}.db`);
     fs.writeFileSync(dbPath, dbContents);
   });
 }
