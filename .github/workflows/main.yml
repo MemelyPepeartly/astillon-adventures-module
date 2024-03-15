@@ -1,24 +1,26 @@
 name: Module CI/CD
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 
 permissions:
-    contents: write
-    pull-requests: write
+  contents: write
+  pull-requests: write
 
 jobs: 
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3 # Updated to v3
 
-    # Sets up node
-    - uses: actions/setup-node@v1
+    # Sets up Node.js
+    - uses: actions/setup-node@v3 # Updated to v3
       with:
-        node-version: 16
+        node-version: '20' # Updated to Node.js 20
+        cache: 'npm'
+
     - run: npm install
 
     - name: Build Files
@@ -40,7 +42,7 @@ jobs:
 
     # create a zip file with all files required by the module to add to the release
     - name: Zip Files
-      working-directory: dist #SORRY BUT YOU HAVE TO USE DIST JUST LIKE GET OVER IT OR FIGURE OUT A BETTER WAY
+      working-directory: dist
       run: zip -r ../module.zip ${{steps.get-includes.outputs.files}}
 
     # Useful only for the template so we can leave the manifest and download urls empty
@@ -50,7 +52,6 @@ jobs:
       with:
         files: './dist/module.json'
       env:
-        # If you want to change some other values in the module.json, it is best to do it here if they are taken from other sources like your package.json
         version: ${{steps.get-version.outputs.version}}
         url: https://github.com/${{github.repository}}
         manifest: https://github.com/${{github.repository}}/releases/latest/download/module.json
@@ -75,10 +76,10 @@ jobs:
       id: create_version_release
       uses: ncipollo/release-action@v1
       with:
-        allowUpdates: true # set this to false if you want to prevent updating existing releases
+        allowUpdates: true
         name: Release ${{ steps.get-version.outputs.version }}
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './dist/module.json,./module.zip'
+        artifacts: './dist/module.json, ./module.zip'
         tag: ${{ steps.get-version.outputs.version }}
