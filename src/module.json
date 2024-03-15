@@ -1,7 +1,7 @@
 {
   "name": "astillon-hanaq-adventures-module",
   "title": "Astillon Hanaq Adventures Module",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "", 
   "authors": [
     {
@@ -42,19 +42,9 @@
       "location": ""
     }
   ],
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
   "packFolders": [
     {
       "name": "Astillon and Hanaq Adventures",
