@@ -1,7 +1,7 @@
 {
   "name": "astillon-hanaq-adventures-module",
   "title": "Astillon Hanaq Adventures Module",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "", 
   "authors": [
     {
@@ -141,7 +141,7 @@
       "name":"astillon-race-macros",
       "label": "Astillon Race Macros",
       "path": "packs/astillon-race-macros.db",
-      "type": "Item",
+      "type": "Macro",
       "system": "pf2e"
     },
     {
