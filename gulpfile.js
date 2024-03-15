@@ -29,7 +29,7 @@ async function compilePacks() {
     }
 
     // Ensure the .db extension is added to the filename
-    const dbPath = path.join(PACKS_DIST, `${category}.db`);
+    const dbPath = path.join(PACKS_DIST, `${category}`);
     fs.writeFileSync(dbPath, dbContents);
   });
 }
