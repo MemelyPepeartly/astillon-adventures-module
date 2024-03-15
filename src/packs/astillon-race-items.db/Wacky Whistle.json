@@ -1,0 +1,128 @@
+{
+  "_id": "5ZszUcnCwW4dHp9e",
+  "name": "Wacky Whistle",
+  "type": "consumable",
+  "img": "common/icons/top-line/gadgets/whacky-whistle.png",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Reusable</strong>: Emits bizarre noises that distract all nearby racers, reducing the speed rolls of the closest vehicles ahead and behind by 1. Usable once every 4 turns.</p>",
+      "addenda": [],
+      "override": null
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.915,
+        "foundry": "11.315",
+        "system": "5.14.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "heldOrStowed": 1,
+      "value": 1,
+      "per": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "brokenThreshold": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "pp": 0,
+        "gp": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn",
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null,
+      "effects": []
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_tool.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this object is unclear."
+          }
+        }
+      },
+      "misidentified": {},
+      "identified": {
+        "name": "Wacky Whistle",
+        "img": "common/icons/top-line/gadgets/whacky-whistle.png",
+        "data": {
+          "description": {
+            "value": "<p><strong>Reusable</strong>: Emits bizarre noises that distract all nearby racers, reducing the speed rolls of the closest vehicles ahead and behind by 1. Usable once every 4 turns.</p>"
+          }
+        }
+      }
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": false
+    },
+    "damage": null,
+    "usage": {
+      "value": "affixed-to-an-object-or-structure",
+      "type": "worn"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "effects": [],
+  "folder": "CEYd6bptRayhBUGm",
+  "sort": 45313,
+  "ownership": {
+    "default": 0,
+    "tstGJ3x0JRVfhi4Q": 3
+  },
+  "flags": {
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.12.7",
+    "coreVersion": "11.315",
+    "createdTime": 1705112579735,
+    "modifiedTime": 1706662316015,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}

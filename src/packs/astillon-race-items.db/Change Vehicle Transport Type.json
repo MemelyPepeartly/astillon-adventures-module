@@ -1,0 +1,75 @@
+{
+  "_id": "6uSZbESaygykuBVW",
+  "name": "Change Vehicle Transport Type",
+  "type": "action",
+  "img": "common/icons/top-line/swap-icon.png",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>For the cost of 1 point of movement during your turn, you can adjust your vehicles current transport type to any others you are using gadget slots for.</p>\n<p>@UUID[Compendium.world.race-items-compendium.Item.bojCntUV7MRJ30Rm]{Current Vehicle Type}</p>",
+      "addenda": [],
+      "override": null
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.915,
+        "foundry": "11.315",
+        "system": "5.14.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "toggles": {
+        "mindshift": null
+      }
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "selfEffect": null
+  },
+  "effects": [],
+  "folder": "Vz4HPwGR3WPxiH2J",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "tstGJ3x0JRVfhi4Q": 3
+  },
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.12.7",
+    "coreVersion": "11.315",
+    "createdTime": 1701655257652,
+    "modifiedTime": 1706603270304,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}

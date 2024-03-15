@@ -1,0 +1,92 @@
+{
+  "_id": "230W7dGbET6Ghimb",
+  "name": "The Nth Degree",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Tapping into your draconic origins, your presence starts to become much more terrifying in your form as a Nirik. This aura is a @Template[type:emanation|distance:10]. An enemy that enters or ends its turn in the aura must attempt a Will save against the higher of your spell DC or class DC. The DC for allies who have travelled with you for a longer period of time is reduced by 5.</p>\n<hr>\n<p><strong>Success</strong> The creature is unaffected and temporarily immune to your Frightful Aura for 1 minute.</p>\n<p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}</p>\n<p><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}</p>",
+      "addenda": [],
+      "override": null
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.804,
+        "foundry": "11.315",
+        "system": "5.14.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aura",
+        "emotion",
+        "fear",
+        "kirin",
+        "mental"
+      ],
+      "rarity": "common",
+      "toggles": {
+        "mindshift": null
+      }
+    },
+    "publication": {
+      "title": "Bannermanes Homebrew",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17,
+      "taken": null
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {}
+    },
+    "selfEffect": null
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.5.1",
+    "coreVersion": "10.291",
+    "createdTime": 1672036793996,
+    "modifiedTime": 1672042444979,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}

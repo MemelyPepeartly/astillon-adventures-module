@@ -1,0 +1,134 @@
+{
+  "_id": "vpSd8I12PgRDcdWu",
+  "name": "Engineer",
+  "type": "consumable",
+  "img": "common/icons/top-line/crew/engineer.png",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<ul>\n<li>Bonus: +3 to mechanical skill rolls (useful for repair challenges, modifying gadgets, etc.). An engineer may opt to heal the ship for 1 point of HP, though doing so makes the engineer unavailable to be selected for challenges that turn and the following turn.</li>\n<li>Penalty: -2 to navigation skill rolls (reflecting their focus on mechanics over piloting).</li>\n</ul>",
+      "addenda": [],
+      "override": null
+    },
+    "rules": [
+      {
+        "key": "TokenEffectIcon",
+        "value": "{item|flags.pf2e.rulesSelections.vehicle-type}"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.915,
+        "foundry": "11.315",
+        "system": "5.14.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "heldOrStowed": 1,
+      "value": 1,
+      "per": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "brokenThreshold": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "pp": 0,
+        "gp": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn",
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null,
+      "effects": []
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_tool.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this object is unclear."
+          }
+        }
+      },
+      "misidentified": {},
+      "identified": {
+        "name": "Engineer",
+        "img": "common/icons/top-line/crew/engineer.png",
+        "data": {
+          "description": {
+            "value": "<ul>\n<li>Bonus: +3 to mechanical skill rolls (useful for repair challenges, modifying gadgets, etc.). An engineer may opt to heal the ship for 1 point of HP, though doing so makes the engineer unavailable to be selected for challenges that turn and the following turn.</li>\n<li>Penalty: -2 to navigation skill rolls (reflecting their focus on mechanics over piloting).</li>\n</ul>"
+          }
+        }
+      }
+    },
+    "category": "other",
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "autoDestroy": false
+    },
+    "damage": null,
+    "usage": {
+      "value": "other",
+      "type": "worn"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "effects": [],
+  "folder": "xhpPNk8piOGxfKpw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tstGJ3x0JRVfhi4Q": 3
+  },
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.12.1",
+    "coreVersion": "11.315",
+    "createdTime": 1701647898078,
+    "modifiedTime": 1705112656800,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}
