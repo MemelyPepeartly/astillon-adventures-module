@@ -1,0 +1,77 @@
+{
+  "_id": "A2QnTuzMIs89NLqf",
+  "name": "1d6 Speed",
+  "type": "effect",
+  "img": "common/icons/top-line/speed%206%20icon.png",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This racer has a speed die of 1d6</p>",
+      "addenda": [],
+      "override": null
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.915,
+        "foundry": "11.315",
+        "system": "5.14.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false,
+    "expired": false
+  },
+  "effects": [],
+  "folder": "wOsDgZkTPWVjtUQR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tstGJ3x0JRVfhi4Q": 3
+  },
+  "flags": {
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.12.7",
+    "coreVersion": "11.315",
+    "createdTime": 1704196053716,
+    "modifiedTime": 1706603229221,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}

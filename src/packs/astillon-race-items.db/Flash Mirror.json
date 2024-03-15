@@ -1,0 +1,129 @@
+{
+  "_id": "6XZDwFacNuYn7Ep7",
+  "name": "Flash Mirror",
+  "type": "consumable",
+  "img": "common/icons/top-line/gadgets/flash-mirror.png",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Reusable</strong>: The flash mirror focuses a large area of light into a single spot. This imparts a -2 navigational penalty on a target vehicle up to 5 spaces away for 1 round, or can impart a -1 speed penalty on that vehicle for 1 round. Once this is used, it cannot be used again for 2 rounds</p>",
+      "addenda": [],
+      "override": null
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.915,
+        "foundry": "11.315",
+        "system": "5.14.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "heldOrStowed": 1,
+      "value": 1,
+      "per": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "brokenThreshold": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "pp": 0,
+        "gp": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn",
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null,
+      "effects": []
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_tool.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this object is unclear."
+          }
+        }
+      },
+      "misidentified": {},
+      "identified": {
+        "name": "Flash Mirror",
+        "img": "common/icons/top-line/gadgets/flash-mirror.png",
+        "data": {
+          "description": {
+            "value": "<p><strong>Reusable</strong>: The flash mirror focuses a large area of light into a single spot. This imparts a -2 navigational penalty on a target vehicle up to 5 spaces away for 1 round, or can impart a -1 speed penalty on that vehicle for 1 round. Once this is used, it cannot be used again for 2 rounds</p>"
+          }
+        }
+      }
+    },
+    "category": "other",
+    "uses": {
+      "value": 2,
+      "max": 2,
+      "autoDestroy": false
+    },
+    "damage": null,
+    "usage": {
+      "value": "affixed-to-an-object-or-structure",
+      "type": "worn"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "effects": [],
+  "folder": "CEYd6bptRayhBUGm",
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "tstGJ3x0JRVfhi4Q": 3
+  },
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.12.7",
+    "coreVersion": "11.315",
+    "createdTime": 1705112579735,
+    "modifiedTime": 1706676372586,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "_id": "sdFwr7zKTEz1p6LJ",
+  "name": "Helmsman",
+  "type": "consumable",
+  "img": "common/icons/top-line/crew/helmsman.png",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<ul>\n<li>Bonus: +3 to piloting skill rolls (beneficial for maneuvering challenges, avoiding obstacles, etc.)</li>\n<li>Penalty: -2 to combat skill rolls (indicating lesser focus on offensive/defensive maneuvers).</li>\n</ul>",
+      "addenda": [],
+      "override": null
+    },
+    "rules": [
+      {
+        "key": "TokenEffectIcon",
+        "value": "{item|flags.pf2e.rulesSelections.vehicle-type}"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.915,
+        "foundry": "11.315",
+        "system": "5.14.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "heldOrStowed": 1,
+      "value": 1,
+      "per": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "brokenThreshold": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "pp": 0,
+        "gp": 0,
+        "sp": 0,
+        "cp": 0
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn",
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null,
+      "effects": []
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_tool.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this object is unclear."
+          }
+        }
+      },
+      "misidentified": {},
+      "identified": {
+        "name": "Helmsman",
+        "img": "common/icons/top-line/crew/helmsman.png",
+        "data": {
+          "description": {
+            "value": "<ul>\n<li>Bonus: +3 to piloting skill rolls (beneficial for maneuvering challenges, avoiding obstacles, etc.)</li>\n<li>Penalty: -2 to combat skill rolls (indicating lesser focus on offensive/defensive maneuvers).</li>\n</ul>"
+          }
+        }
+      }
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": false
+    },
+    "damage": null,
+    "usage": {
+      "value": "other",
+      "type": "worn"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "effects": [],
+  "folder": "xhpPNk8piOGxfKpw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tstGJ3x0JRVfhi4Q": 3
+  },
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.12.1",
+    "coreVersion": "11.315",
+    "createdTime": 1701647898078,
+    "modifiedTime": 1705112579735,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}

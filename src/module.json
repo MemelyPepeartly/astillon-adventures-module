@@ -1,7 +1,7 @@
 {
   "name": "astillon-hanaq-adventures-module",
   "title": "Astillon Hanaq Adventures Module",
-  "version": "0.2.12",
+  "version": "0.3.1",
   "description": "", 
   "authors": [
     {
@@ -83,11 +83,24 @@
                 "ponyfinder-kirin-ancestries-and-heritages",
                 "ponyfinder-kirin-feats"
               ]
+            },
+            {
+              "name": "Racing System",
+              "sorting": "m",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "packs": [
+                "astillon-race-items",
+                "astillon-race-macros"
+              ]
             }
           ],
           "packs": [
             "astillon-ancestry-feats",
-            "astillon-ancestries"
+            "astillon-ancestries",
+            "astillon-retired-characters"
           ]
         }
       ],
@@ -122,6 +135,24 @@
       "path": "packs/ponyfinder-kirin-feats.db",
       "type": "Item",
       "system": "pf2e"
+    },
+    {
+      "name": "astillon-race-items",
+      "label": "Astillon Race Items",
+      "path": "packs/astillon-race-items.db",
+      "system": "pf2e"
+    },
+    {
+      "name":"astillon-race-macros",
+      "label": "Astillon Race Macros",
+      "path": "packs/astillon-race-macros.db",
+      "system": "pf2e"
+    },
+    {
+      "name":"astillon-retired-characters",
+      "label": "Astillon Retired Characters",
+      "path": "packs/astillon-retired-characters.db",
+      "system": "pf2e"
     }
   ],
   "flags": {
@@ -132,9 +163,6 @@
             },
             "featTraits": {
                 "kirin": "Kirin"
-            },
-            "languages": {
-                "custom-language": "Custom Language"
             }
         }
     }

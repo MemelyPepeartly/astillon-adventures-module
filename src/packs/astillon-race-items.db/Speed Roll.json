@@ -1,0 +1,101 @@
+{
+  "_id": "uCbCO4yFtcBeLlAG",
+  "name": "Speed Roll",
+  "type": "action",
+  "img": "common/icons/top-line/speed-icon.png",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your vehicle has a base speed. Depending on what your vehicles base speed is that you selected, roll whichever speed die is relevant to your vehicle</p>\n<ul>\n<li>[[/r 1d4[speed]]]</li>\n<li>[[/r 1d6[speed]]]</li>\n<li>[[/r 1d8[speed]]]</li>\n</ul>",
+      "addenda": [],
+      "override": null
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "vehicleSpeed",
+        "prompt": "What is your vehicle speed?",
+        "AdjustName": true,
+        "choices": [
+          {
+            "label": "1d4",
+            "value": "Compendium.world.race-items-compendium.Item.hEPpy3nJ09cpPtKM"
+          },
+          {
+            "label": "1d6",
+            "value": "Compendium.world.race-items-compendium.Item.A2QnTuzMIs89NLqf"
+          },
+          {
+            "label": "1d8",
+            "value": "Compendium.world.race-items-compendium.Item.DHwEEyuQ6n9Qe4Id"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.vehicleSpeed}",
+        "ReplaceSelf": false
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.915,
+        "foundry": "11.315",
+        "system": "5.14.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "toggles": {
+        "mindshift": null
+      }
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "selfEffect": null
+  },
+  "effects": [],
+  "folder": "Vz4HPwGR3WPxiH2J",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "tstGJ3x0JRVfhi4Q": 3
+  },
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.12.7",
+    "coreVersion": "11.315",
+    "createdTime": 1701648100788,
+    "modifiedTime": 1706603247140,
+    "lastModifiedBy": "tstGJ3x0JRVfhi4Q"
+  }
+}
