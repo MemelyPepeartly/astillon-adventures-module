@@ -1,7 +1,7 @@
 {
   "name": "astillon-hanaq-adventures-module",
   "title": "Astillon Hanaq Adventures Module",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "", 
   "authors": [
     {
@@ -140,18 +140,21 @@
       "name": "astillon-race-items",
       "label": "Astillon Race Items",
       "path": "packs/astillon-race-items.db",
+      "type": "Item",
       "system": "pf2e"
     },
     {
       "name":"astillon-race-macros",
       "label": "Astillon Race Macros",
       "path": "packs/astillon-race-macros.db",
+      "type": "Item",
       "system": "pf2e"
     },
     {
       "name":"astillon-retired-characters",
       "label": "Astillon Retired Characters",
       "path": "packs/astillon-retired-characters.db",
+      "type": "Actor",
       "system": "pf2e"
     }
   ],
