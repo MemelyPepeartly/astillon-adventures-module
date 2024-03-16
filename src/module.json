@@ -1,7 +1,7 @@
 {
   "name": "astillon-hanaq-adventures-module",
   "title": "Astillon Hanaq Adventures Module",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "", 
   "authors": [
     {
@@ -14,22 +14,28 @@
   ],
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "11",
+    "maximum": "11.999"
   },
-  "manifestPlusVersion": "1.0.0",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/download/latest/system.json",
+        "compatibility": {
+          "minimum": "5.14.1",
+          "verified": "5.14.1"
+        }
+      }
+    ]
+  },
+  "manifestPlusVersion": "1.2.0",
+  "allowBugReporter": true,
   "url": "https://github.com/MemelyPepeartly/astillon-hanaq-adventures-module",
   "manifest": "https://github.com/MemelyPepeartly/astillon-hanaq-adventures-module/releases/latest/download/module.json",
   "download": "https://github.com/MemelyPepeartly/astillon-hanaq-adventures-module/releases/latest/download/module.zip",
   "type": "module",
-  "includes": [
-    "./assets/**",
-    "./lang/**",
-    "./scripts/**",
-    "./styles/**",
-    "./packs/**",
-    "./module.json",
-    "./README.md"
-  ],
   "media": [
     {
       "type": "icon",
@@ -105,49 +111,77 @@
       "label": "Astillon Ancestry Feats",
       "path": "packs/astillon-ancestry-feats.db",
       "type": "Item",
-      "system": "pf2e"
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "astillon-ancestries",
       "label": "Astillon Ancestries",
       "path": "packs/astillon-ancestries.db",
       "type": "Item",
-      "system": "pf2e"
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "ponyfinder-kirin-ancestries-and-heritages",
       "label": "Ponyfinder Kirin Ancestries and Heritages",
       "path": "packs/ponyfinder-kirin-ancestries-and-heritages.db",
       "type": "Item",
-      "system": "pf2e"
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "ponyfinder-kirin-feats",
       "label": "Ponyfinder Kirin Feats",
       "path": "packs/ponyfinder-kirin-feats.db",
       "type": "Item",
-      "system": "pf2e"
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "astillon-race-items",
       "label": "Astillon Race Items",
       "path": "packs/astillon-race-items.db",
       "type": "Item",
-      "system": "pf2e"
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name":"astillon-race-macros",
       "label": "Astillon Race Macros",
       "path": "packs/astillon-race-macros.db",
       "type": "Macro",
-      "system": "pf2e"
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name":"astillon-retired-characters",
       "label": "Astillon Retired Characters",
       "path": "packs/astillon-retired-characters.db",
       "type": "Actor",
-      "system": "pf2e"
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "flags": {
